@@ -1,28 +1,28 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
 
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import HomeScreen from './src/screens/HomeScreen';
+import AuthScreen from './src/screens/AuthScreen';
+import SingleProperty from './src/components/SingleProperty';
+import Wishlists from './src/screens/Wishlists';
 function App() {
-  const isDarkMode = useColorScheme() === 'dark';
+
+  const Stack=createNativeStackNavigator();
+
 
   return (
-    <View style={styles.container}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <NewAppScreen templateFileName="App.tsx" />
-    </View>
+    <NavigationContainer>
+    <Stack.Navigator initialRouteName="Home" screenOptions={{headerShown:false}} >
+         <Stack.Screen name="Auth" component={AuthScreen} />
+         <Stack.Screen name="Home" component={HomeScreen} />
+         <Stack.Screen name='SingleProperty' component={SingleProperty} />
+           <Stack.Screen name='WishList' component={Wishlists} />
+    </Stack.Navigator>
+    </NavigationContainer>
+    
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
 
 export default App;

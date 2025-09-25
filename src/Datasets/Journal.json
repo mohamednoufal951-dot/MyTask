@@ -1,0 +1,148 @@
+expconst data=[{
+  "users": [
+    {
+      "userId": "user_1",
+      "email": "sarah.jones@example.com",
+      "name": "Sarah Jones",
+      "socialProvider": "google",
+      "sessionToken": "token_1",
+      "journalEntries": [
+        {
+          "entryId": "entry_101",
+          "userId": "user_1",
+          "title": "Road Trip to the Grand Canyon",
+          "description": "The scale of the canyon is absolutely mind-blowing. The colors at sunset were incredible.",
+          "createdAt": "2025-08-15T12:00:00Z",
+          "updatedAt": "2025-08-15T12:00:00Z",
+          "isSynced": true,
+          "geolocation": { "latitude": 36.10, "longitude": -112.11 },
+          "photos": [
+            { "photoId": "p1_101", "url": "https://example.com/photos/canyon1.jpg", "localPath": null },
+            { "photoId": "p2_101", "url": "https://example.com/photos/canyon2.jpg", "localPath": null }
+          ],
+          "tags": ["grand canyon", "road trip", "nature", "sunset", "arizona"]
+        }
+      ]
+    },
+    {
+      "userId": "user_2",
+      "email": "mike.chen@example.com",
+      "name": "Mike Chen",
+      "socialProvider": "apple",
+      "sessionToken": "token_2",
+      "journalEntries": [
+        {
+          "entryId": "entry_201",
+          "userId": "user_2",
+          "title": "Exploring Tokyo",
+          "description": "Lost in the vibrant streets of Shibuya. The city is alive with energy!",
+          "createdAt": "2025-09-01T08:30:00Z",
+          "updatedAt": "2025-09-01T08:30:00Z",
+          "isSynced": true,
+          "geolocation": { "latitude": 35.65, "longitude": 139.70 },
+          "photos": [
+            { "photoId": "p1_201", "url": "https://example.com/photos/tokyo1.jpg", "localPath": null }
+          ],
+          "tags": ["tokyo", "cityscape", "shibuya", "nightlife"]
+        },
+        {
+          "entryId": "entry_202",
+          "userId": "user_2",
+          "title": "Kyoto Temples",
+          "description": "Found peace and serenity at a beautiful temple. The zen garden was perfect.",
+          "createdAt": "2025-09-03T11:00:00Z",
+          "updatedAt": "2025-09-03T11:00:00Z",
+          "isSynced": false,
+          "geolocation": { "latitude": 35.01, "longitude": 135.75 },
+          "photos": [
+            { "photoId": "p1_202", "url": null, "localPath": "/local/kyoto.jpg" }
+          ],
+          "tags": ["kyoto", "temple", "garden", "calm"]
+        }
+      ]
+    },
+    {
+      "userId": "user_3",
+      "email": "linda.garcia@example.com",
+      "name": "Linda Garcia",
+      "socialProvider": "google",
+      "sessionToken": "token_3",
+      "journalEntries": [
+        {
+          "entryId": "entry_301",
+          "userId": "user_3",
+          "title": "A Day at the Beach",
+          "description": "Just another day enjoying the sun and waves. The perfect escape.",
+          "createdAt": "2025-09-20T14:00:00Z",
+          "updatedAt": "2025-09-20T14:00:00Z",
+          "isSynced": true,
+          "geolocation": { "latitude": 25.76, "longitude": -80.19 },
+          "photos": [
+            { "photoId": "p1_301", "url": "https://example.com/photos/beach1.jpg", "localPath": null }
+          ],
+          "tags": ["beach", "ocean", "relaxation", "florida"]
+        }
+      ]
+    },
+    {
+      "userId": "user_4",
+      "email": "david.lee@example.com",
+      "name": "David Lee",
+      "socialProvider": "apple",
+      "sessionToken": "token_4",
+      "journalEntries": []
+    },
+    {
+      "userId": "user_5",
+      "email": "emily.white@example.com",
+      "name": "Emily White",
+      "socialProvider": "google",
+      "sessionToken": "token_5",
+      "journalEntries": [
+        {
+          "entryId": "entry_501",
+          "userId": "user_5",
+          "title": "Skiing in the Alps",
+          "description": "Hit the slopes today. The fresh powder was amazing!",
+          "createdAt": "2025-09-18T09:00:00Z",
+          "updatedAt": "2025-09-18T09:00:00Z",
+          "isSynced": true,
+          "geolocation": { "latitude": 46.54, "longitude": 6.94 },
+          "photos": [
+            { "photoId": "p1_501", "url": "https://example.com/photos/skiing1.jpg", "localPath": null },
+            { "photoId": "p2_501", "url": "https://example.com/photos/skiing2.jpg", "localPath": null },
+            { "photoId": "p3_501", "url": "https://example.com/photos/skiing3.jpg", "localPath": null }
+          ],
+          "tags": ["alps", "skiing", "snow", "winter", "mountains"]
+        }
+      ]
+    },
+    {
+      "userId": "user_6",
+      "email": "alex.rodriguez@example.com",
+      "name": "Alex Rodriguez",
+      "socialProvider": "google",
+      "sessionToken": "token_6",
+      "journalEntries": [
+        {
+          "entryId": "entry_601",
+          "userId": "user_6",
+          "title": "Food Tour in Rome",
+          "description": "Ate my way through the city! The pasta was incredible.",
+          "createdAt": "2025-09-10T19:30:00Z",
+          "updatedAt": "2025-09-10T19:30:00Z",
+          "isSynced": true,
+          "geolocation": { "latitude": 41.90, "longitude": 12.49 },
+          "photos": [
+            { "photoId": "p1_601", "url": "https://example.com/photos/rome1.jpg", "localPath": null },
+            { "photoId": "p2_601", "url": "https://example.com/photos/rome2.jpg", "localPath": null },
+            { "photoId": "p3_601", "url": "https://example.com/photos/rome3.jpg", "localPath": null },
+            { "photoId": "p4_601", "url": "https://example.com/photos/rome4.jpg", "localPath": null },
+            { "photoId": "p5_601", "url": "https://example.com/photos/rome5.jpg", "localPath": null }
+          ],
+          "tags": ["rome", "food", "italy", "city", "travel"]
+        }
+      ]
+    }
+  ]
+}]

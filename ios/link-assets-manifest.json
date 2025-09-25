@@ -1,0 +1,329 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/OpenSans_Condensed-Bold.ttf",
+      "sha1": "0ae0e661c35da707c15d1363c1f9137c062fab23"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/OFL.txt",
+      "sha1": "fdc97f70aff35bfbe18931c0f7849b42eca8a680"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth,wght.ttf",
+      "sha1": "3a144c924d57b5180ace77735aa10b00742d7362"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf",
+      "sha1": "f60d7a8d3e964d894ddf2628508c5bf01e6b6239"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/README.txt",
+      "sha1": "048a0099140c7b791dcfdc4e31687997943e6d0b"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-Bold.ttf",
+      "sha1": "c7e6b913f990299fcc5928f4581727972e869727"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-BoldItalic.ttf",
+      "sha1": "9debf2df5b0781ea1c8c47f094307f716f596503"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-ExtraBold.ttf",
+      "sha1": "725bb4afb0eb261acea24bd8dc6d1fc106fb9890"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-ExtraBoldItalic.ttf",
+      "sha1": "607a8a75c425a86d2cc711660bf795743bf1012f"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-Italic.ttf",
+      "sha1": "2ea6568cd9ed07c8b1f0bbf148dd2ab9a9fc4f0d"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-Light.ttf",
+      "sha1": "6236023a78c3031a26e7093881cceeae50ad036f"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-LightItalic.ttf",
+      "sha1": "2d42e7aedc1ae7b5b69db392d301b2f08a04c91b"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-Medium.ttf",
+      "sha1": "1632123e8a78dd095fb987c0cb2ad05063e0648a"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-MediumItalic.ttf",
+      "sha1": "cf830d27b664edac6d806b1fa75381e57bbd69e1"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-Regular.ttf",
+      "sha1": "576aa669c4ceb3830fde859a4db52916def172af"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-SemiBold.ttf",
+      "sha1": "344041aeaad9e07a186cc3a937df915e5d98936f"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans-SemiBoldItalic.ttf",
+      "sha1": "86464eed204f9a93cf74261b4694a16b2d437d10"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_Condensed-BoldItalic.ttf",
+      "sha1": "aee7adbd431dfcd3d477ef2fe5b0509b09f9143e"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_Condensed-ExtraBold.ttf",
+      "sha1": "04dcbe302c18c28467c870f7326bdb2369550ba7"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_Condensed-ExtraBoldItalic.ttf",
+      "sha1": "4e756a999a0fda04ee7df532c39cbc0d99a77e19"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_Condensed-Italic.ttf",
+      "sha1": "12cc243bd3c997dafa5fe28c1707b70ba05f8210"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_Condensed-Light.ttf",
+      "sha1": "cc2e5f86f31167086c0552035529f629ed640491"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_Condensed-LightItalic.ttf",
+      "sha1": "ff13672cc7f45ceea49fd24d34fd8ae26bbdc58b"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_Condensed-Medium.ttf",
+      "sha1": "2bd2fe4cdba1f199db1f7175031415173e25eac4"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_Condensed-MediumItalic.ttf",
+      "sha1": "94242d2e25482d62d753b72e2fcc412855494dbc"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_Condensed-Regular.ttf",
+      "sha1": "baa096bb85268118929b5580322a5581966b8859"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_Condensed-SemiBold.ttf",
+      "sha1": "4f998120039dfa065baa157386044e61832790be"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_Condensed-SemiBoldItalic.ttf",
+      "sha1": "c2cf35af4a2062c0279ecfac1be8cb10c5a64aa2"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-Bold.ttf",
+      "sha1": "9dc9230123de648a4692dca2f8cd18ec445be5a5"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-BoldItalic.ttf",
+      "sha1": "43410edbbfa14fa0beb57b0f923d925a1633f28b"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-ExtraBold.ttf",
+      "sha1": "d9d0cebe0a889e4947ecaed6bd619bdf67bcdb36"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-ExtraBoldItalic.ttf",
+      "sha1": "cfa88ed9fb4c380c698365f081d67272fbc705fe"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-Italic.ttf",
+      "sha1": "e71deba4604c128c5f29f459a2977bdef412b024"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-Light.ttf",
+      "sha1": "fe1c74e98c5f31474df9b7973eb841b547c3105e"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-LightItalic.ttf",
+      "sha1": "e5c8e0d3da15c9a335ebd3476a586595bd4ce049"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-Medium.ttf",
+      "sha1": "00b8dd3e5d4277add9185097dfb6991f7c06e537"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-MediumItalic.ttf",
+      "sha1": "0b1bb4b5be65582ef464df3d25f6d5a012b3a42f"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-Regular.ttf",
+      "sha1": "354c8ffc6903ffce35d6f07bef76a75ee4df3710"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-SemiBold.ttf",
+      "sha1": "065d100d5e542d2eaf63def6040b6feec668c238"
+    },
+    {
+      "path": "src/assets/fonts/Open_Sans/static/OpenSans_SemiCondensed-SemiBoldItalic.ttf",
+      "sha1": "27a418a7fe75d0d4f1ec916e619aa5ca1edcf354"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf",
+      "sha1": "5768f0e9bf3ca7c9e4aa871497ab465243d5676e"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf",
+      "sha1": "e24b800575cb38de6687eeb2cb33672fa5f6acee"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf",
+      "sha1": "ac1ab1b54b6edc5e52dbffc5cb06554b742ad080"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-BlackItalic.ttf",
+      "sha1": "1a9b420221cc0883bb8052ac0515047aad46969f"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf",
+      "sha1": "57360f49f076d7bdd7a9e1e93abf3bed7d56d726"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf",
+      "sha1": "5e5a5d9a16f0c8a5ffd6afbc5ffa5b5af51916b1"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-ExtraBold.ttf",
+      "sha1": "1e31527131b2ff9019ccba56ac57e84c2612393a"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-ExtraBoldItalic.ttf",
+      "sha1": "d230fbcd92f90944c543a9e39dbc8bd49ed89d2d"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf",
+      "sha1": "dffe6fa2688bf379ec6a33a9507e70af6fc2b39c"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf",
+      "sha1": "de85ce98fad06daf64f86d670e13fa3ecef5b515"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf",
+      "sha1": "96456a5921dbec77ee23ed839c9f449abb43948c"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf",
+      "sha1": "3e12c2cf422de852cd0af0227179901b155abf14"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-SemiBold.ttf",
+      "sha1": "7fa24e8796734ec17d72f1e97cfb5d427508e337"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display/static/PlayfairDisplay-SemiBoldItalic.ttf",
+      "sha1": "f31580d7e567c50400544996e014dfeca9aaa9c7"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display_SC/PlayfairDisplaySC-Black.ttf",
+      "sha1": "e344133e7024c00fd8b47db294e88415f8592842"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display_SC/PlayfairDisplaySC-BlackItalic.ttf",
+      "sha1": "0c6a350ecb507132adf32c4a0eed88a9474ebf14"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf",
+      "sha1": "f81495e8e8d76b7d45e81230f46f7a7cefeb419a"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display_SC/PlayfairDisplaySC-BoldItalic.ttf",
+      "sha1": "d251b9b2b9a6ef72f973aba3cfa6134ab7624cdf"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display_SC/PlayfairDisplaySC-Italic.ttf",
+      "sha1": "dc3336a686ced8a783682ca7f82997ccbed3b549"
+    },
+    {
+      "path": "src/assets/fonts/Playfair_Display_SC/PlayfairDisplaySC-Regular.ttf",
+      "sha1": "ebc9f6727f30d5084a7f53e1b5f082ebac8a8c9f"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf",
+      "sha1": "2995b80908669bbea8a9698f2eacebc5edf1df7b"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/Raleway-VariableFont_wght.ttf",
+      "sha1": "036a6aa66bef92b9927aa75b7d95587c9066a360"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-Black.ttf",
+      "sha1": "d1f56b87671fa8bfbd03168bb85316f82de0fa6a"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-BlackItalic.ttf",
+      "sha1": "744b0a25204d4cf0cc710c774e0710891876aec7"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-Bold.ttf",
+      "sha1": "633fc874da0a04f51950f11729651f14718778d4"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-BoldItalic.ttf",
+      "sha1": "cc2e776c8131c6356341a54aaf897c066b62ea38"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-ExtraBold.ttf",
+      "sha1": "0aaae506e95b620dbfb937ed0f9e6a3ec559a825"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf",
+      "sha1": "acb468c4ef7c4561fd5984af2fbd23d8818256ad"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-ExtraLight.ttf",
+      "sha1": "00337c32e0fdf29c034ce293ac5e0c26b64223f2"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-ExtraLightItalic.ttf",
+      "sha1": "96197b9468ea120ad74211fceb2a7a63e7f2cf92"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-Italic.ttf",
+      "sha1": "269491e4c52d9b8d7a5afb8e186f956a025f7a15"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-Light.ttf",
+      "sha1": "3da11b2e3b5f6c6b2e1b56e88de643353f4022c1"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-LightItalic.ttf",
+      "sha1": "e818541a91cfd298463433b20f52eca5c5b3da3a"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-Medium.ttf",
+      "sha1": "a9a82617db2caca029742885ea86e2384b512dc7"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-MediumItalic.ttf",
+      "sha1": "38021041e795aebac9e3a961a1c19df0695eed2e"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-Regular.ttf",
+      "sha1": "de56c2d00968cb63feda2bdf924a90b7079eec48"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-SemiBold.ttf",
+      "sha1": "60b619bc3a65fbd7497eebca05550e916fbb0ac9"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-SemiBoldItalic.ttf",
+      "sha1": "c42b7304f432bea3c6e2177c9ab20ff6dbf1777d"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-Thin.ttf",
+      "sha1": "8acc6168b15f54bcb3fe9484b1a45d803bf99d9b"
+    },
+    {
+      "path": "src/assets/fonts/Raleway/static/Raleway-ThinItalic.ttf",
+      "sha1": "348e192a3e45a1672789fad44a2708faf91b6ee7"
+    },
+    {
+      "path": "src/assets/fonts/Spinnaker/Spinnaker-Regular.ttf",
+      "sha1": "68e7e806c3e85a9a606da8a6fd10982e36a51e7d"
+    }
+  ]
+}
