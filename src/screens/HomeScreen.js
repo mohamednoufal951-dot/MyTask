@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { use } from 'react';
 import { Text, View, StyleSheet, Dimensions, TouchableOpacity,FlatList, Modal, TextInput } from 'react-native';
 import StatusBar from '../components/StatusBar';
 import CustomCard from '../components/CustomCard';
-
+import { useRoute } from '@react-navigation/native';
 import { modelStore } from '../State/modelStore';
 import InputField from '../components/InputField';
 import { FilterStore } from '../State/FilterStore';
+import Ionicons from '@react-native-vector-icons/ionicons';
 
 
 const data = [
@@ -100,6 +101,9 @@ const HomeScreen = () => {
   const {isOpen,openModel, closeModel}=modelStore();
   const {FilterInput,setFilterInput,setFilteredData}=FilterStore();
 
+  const route=useRoute();
+  const {location}=route.params||{};
+
     const handleSubmitFilter = () => {
     const newFilteredData = data.filter(item =>
       item.title.toLowerCase().includes(FilterInput.toLowerCase()) ||
@@ -114,8 +118,17 @@ const HomeScreen = () => {
 
   return (
     <View style={styles.container}>
-        <StatusBar model={isOpen} openModel={openModel} closeModel={closeModel}/>
-        <Text style={styles.heading}>Popular Properties</Text>
+        <StatusBar model={isOpen} openModel={openModel} closeModel={closeModel} location={location}/>
+     <View style={styles.header}>
+      <Text style={styles.heading}>Popular Properties</Text>
+      <View style={styles.locationRow}>
+        <Ionicons name="location" size={18} style={styles.price} />
+        <Text style={styles.cityText}>
+          {location ? location.state : "Loading..."}
+        </Text>
+      </View>
+    </View>
+ 
           <FlatList
       data={data}
       keyExtractor={(item) => item.id}
@@ -154,14 +167,21 @@ const styles = StyleSheet.create({
   container: {
          flex:1
   },
-  heading: {
-    fontSize: 20,
-    fontWeight: "bold",
-    textAlign: "left",
-    paddingVertical:10,
-    paddingLeft:10,
-    fontFamily:"PlayfairDisplaySC-Black"
+ header: { padding: 15,
+  flexDirection: "row", 
+  justifyContent: "space-between" },
+  heading: { fontSize: 20,
+     fontWeight: "bold" },
+  locationRow: { 
+    flexDirection: "row", 
+    alignItems: "center", 
+    marginTop: 5 
   },
+  cityText: { 
+    fontSize: 16, 
+    marginLeft: 5,
+     color: "#333" },
+
    modalOverlay: {
     flex: 1,
     backgroundColor: 'rgba(0,0,0,0.5)', // semi-transparent background
@@ -182,6 +202,9 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     alignItems: 'center',
   },
+    price:{
+    marginRight:3
+  }
   });
 
 export default HomeScreen;

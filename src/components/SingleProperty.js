@@ -22,7 +22,7 @@ const SingleProperty = () => {
   return (
     <View style={{ flex: 1 }}>
       <ImageBackground
-        source={{ uri: "https://picsum.photos/800/500?random=1" }}
+        source={{ uri: item.image }}
         style={styles.imageBackground}
       >
         {/* Top Buttons */}

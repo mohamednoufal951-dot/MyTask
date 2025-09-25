@@ -13,7 +13,7 @@ function App() {
 
   return (
     <NavigationContainer>
-    <Stack.Navigator initialRouteName="Home" screenOptions={{headerShown:false}} >
+    <Stack.Navigator initialRouteName="Auth" screenOptions={{headerShown:false}} >
          <Stack.Screen name="Auth" component={AuthScreen} />
          <Stack.Screen name="Home" component={HomeScreen} />
          <Stack.Screen name='SingleProperty' component={SingleProperty} />

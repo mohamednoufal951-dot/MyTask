@@ -7,7 +7,7 @@ import { modelStore } from '../State/modelStore';
 
 const StatusBar = () => {
   const route = useRoute();
- const {model}=route.params||{};
+ const {model,location}=route.params||{};
   const { openModel, closeModel } = modelStore();
 
   return (
@@ -17,6 +17,7 @@ const StatusBar = () => {
 
   
       <View style={styles.iconContainer}>
+    
         <TouchableOpacity onPress={() => openModel()}>
                   <Ionicons name="search" size={26} style={styles.icon} />
         </TouchableOpacity>
